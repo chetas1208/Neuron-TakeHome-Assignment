@@ -1,0 +1,7 @@
+# Keep credentials and local environment files out of the public repository.
+**/.env
+**/.env.*
+!**/.env.example
+
+# The original nested repository metadata is not part of the source tree.
+.nested-git-backup/
